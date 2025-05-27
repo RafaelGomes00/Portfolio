@@ -3,6 +3,8 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { BsAndroid } from "react-icons/bs";
+import { BsApple } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
@@ -13,15 +15,34 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
+        
+        {props.ghLink && (
+          <Button variant="primary" href={props.ghLink} target="_blank"
+          style={{ marginLeft: "10px" }}>
+            <BsGithub /> &nbsp; {"GitHub"}
+          </Button>
+        )}
+
         {"\n"}
+        
+        {props.pStoreLink && (
+          <Button variant="primary" href={props.pStoreLink} target="_blank"
+          style={{ marginLeft: "10px" }}>
+            <BsAndroid /> &nbsp; {"Google Play"}
+          </Button>
+        )}
+
         {"\n"}
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+        {props.appStore && (
+          <Button variant="primary" href={props.appStore} target="_blank"
+          style={{ marginLeft: "10px" }}>
+            <BsApple /> &nbsp; {"Apple Store"}
+          </Button>
+        )}
 
+        {"\n"}
+        
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -29,8 +50,7 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+            <CgWebsite /> &nbsp; {"Demo"}
           </Button>
         )}
       </Card.Body>

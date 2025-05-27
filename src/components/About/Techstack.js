@@ -1,21 +1,21 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { CgFigma } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
+  DiPhotoshop,
+  DiGoogleAnalytics
 } from "react-icons/di";
+import { FaGithub } from "react-icons/fa";
 import {
-  SiRedis,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiCsharp,
+  SiUnity,
+  SiGodotengine,
+  SiUnrealengine,
+  SiCplusplus,
+  SiBlender,
+  SiGimp
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -23,46 +23,43 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiUnity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiGodotengine />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiUnrealengine />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiCplusplus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiBlender />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiPhotoshop />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <FaGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <CgFigma />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiGimp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGoogleAnalytics />
       </Col>
     </Row>
   );
