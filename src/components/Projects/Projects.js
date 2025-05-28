@@ -26,7 +26,7 @@ function Projects() {
               imgPath={spaceVentura}
               isBlog={false}
               title="SpaceVentura"
-              description="-"
+              description="SpaceVentura is a collection of fast-paced minigames designed to challenge children. From solving clever puzzles to quickly memorizing patterns under pressure, every world offers a fresh twist on gameplay. With a focus on developing logic, memory, and problem-solving skills."
               // pStoreLink="https://play.google.com/store/apps/details?id=com.TryAppGames.Mapeando"
             />
           </Col>
@@ -36,7 +36,7 @@ function Projects() {
               imgPath={mapeando}
               isBlog={false}
               title="Mapeando"
-              description="-"
+              description="Mapeando is a fun and educational digital game made for children, featuring a colorful world of minigames that explore different aspects of Brazilian culture."
               pStoreLink="https://play.google.com/store/apps/details?id=com.TryAppGames.Mapeando"
             />
           </Col>
@@ -46,7 +46,7 @@ function Projects() {
               imgPath={radarFit}
               isBlog={false}
               title="RadarFit"
-              description="-"
+              description="RadarFit is an app that helps you adapt to a healthier lifestyle by rewarding the player with real rewards. I greatly contributed with the maintenance of the project by fixing bugs and adding new features."
               pStoreLink="https://play.google.com/store/apps/details?id=com.RadarStudio.RadarFit"
               appStore="https://apps.apple.com/br/app/radarfit/id1479339062"
             />
@@ -57,7 +57,7 @@ function Projects() {
               imgPath={bordando}
               isBlog={false}
               title="Bordando Palavras"
-              description="-"
+              description="'Bordando Palavras' was developed through a partnership between my university and the museum 'Espaço do Conhecimento UFMG'. The game was created as part of the exhibition Sertão Mundo, which showcases the incredible work of the Brazilian writer 'Guimarães Rosa'."
               demoLink="https://rafaelgomes00.itch.io/bordando-palavras"              
             />
           </Col>
@@ -67,7 +67,7 @@ function Projects() {
               imgPath={ESRX}
               isBlog={false}
               title="Extreme Radical Snowboarding Xtreme"
-              description="-"
+              description="I developed this game with my colleagues as part of our final university project. In this multiplayer game, your objective is to win an extremely radical snowboarding race against other players. While taking care with the obstacles that will throw your face directly into the ground!"
               ghLink="https://github.com/lucas-khaled/Extreme-Snowboarding"
               demoLink="https://lucas-khaled.itch.io/ersx"
             />
@@ -78,7 +78,7 @@ function Projects() {
               imgPath={wordSearch}
               isBlog={false}
               title="WordSearch generator"
-              description="-"
+              description="A tool designed to simplify the creation of word search boards. It automatically generates a complete, and ready-to-use boards for your game, offering both pre-made templates and boards generated at runtime."
               ghLink="https://github.com/RafaelGomes00/WordSearch-Generator"
             />
           </Col>
