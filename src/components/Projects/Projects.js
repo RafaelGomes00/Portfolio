@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="SpaceVentura"
               description="SpaceVentura is a collection of fast-paced minigames designed to challenge children. From solving clever puzzles to quickly memorizing patterns under pressure, every world offers a fresh twist on gameplay. With a focus on developing logic, memory, and problem-solving skills."
-              // pStoreLink="https://play.google.com/store/apps/details?id=com.TryAppGames.Mapeando"
+              pStoreLink="https://play.google.com/store/apps/details?id=com.TryAppGames.SpaceVentura"
             />
           </Col>
 
