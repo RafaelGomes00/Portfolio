@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.de770f5e.css",
-    "main.js": "/Portfolio/static/js/main.713eda67.js",
+    "main.js": "/Portfolio/static/js/main.1cef52a9.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bordandoPalavras.png": "/Portfolio/static/media/bordandoPalavras.24bef11f4d0e1649f243.png",
-    "static/media/RafaelGomes_Resume.pdf": "/Portfolio/static/media/RafaelGomes_Resume.c9313c10d9fce6d33b4f.pdf",
+    "static/media/RafaelGomes_Resume.pdf": "/Portfolio/static/media/RafaelGomes_Resume.0280913a3104a6b32f00.pdf",
+    "static/media/rafael_resume.jpg": "/Portfolio/static/media/rafael_resume.1d44cc237c98cadd43ee.jpg",
     "static/media/photo.png": "/Portfolio/static/media/photo.d577a4ee55c0e15db7bc.png",
     "static/media/spaceVentura.png": "/Portfolio/static/media/spaceVentura.6b4b6a01cb5c8e5aada1.png",
     "static/media/ESRX.jpg": "/Portfolio/static/media/ESRX.f154158a9c5bc0f7ff94.jpg",
@@ -16,12 +17,12 @@
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
     "main.de770f5e.css.map": "/Portfolio/static/css/main.de770f5e.css.map",
-    "main.713eda67.js.map": "/Portfolio/static/js/main.713eda67.js.map",
+    "main.1cef52a9.js.map": "/Portfolio/static/js/main.1cef52a9.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de770f5e.css",
-    "static/js/main.713eda67.js"
+    "static/js/main.1cef52a9.js"
   ]
 }
